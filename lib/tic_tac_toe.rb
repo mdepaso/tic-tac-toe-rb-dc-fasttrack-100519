@@ -36,7 +36,9 @@ def position_taken?(board, position)
 end
 
 def valid_move(board, index)
-   if position_taken?
+   if index <= 9
+   if position_taken? == false
+     
   end
 end
 
