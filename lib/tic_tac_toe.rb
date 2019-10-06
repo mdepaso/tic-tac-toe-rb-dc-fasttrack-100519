@@ -35,9 +35,6 @@ def position_taken?(board, position)
   end
 end
 
-def valid_move(board, index)
-   if position_taken?
-  end
-end
+
 
 
