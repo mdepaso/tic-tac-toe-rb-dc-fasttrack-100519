@@ -21,9 +21,9 @@ def input_to_index(user_input)
   user_input = user_input.to_i-1
 end
 
-# def move(board,index,char)
-#   board[index] = char
-# end
+def move(board,index,char)
+  board[index] = char
+end
 
 
 # # This checks if a space is taken. By checking is the space has and X or and O in it.
