@@ -35,12 +35,12 @@ def position_taken?(board, position)
   end
 end
 
-def valid_move(board, index)
+def valid_move?(board, index)
    if index <= 9
-     valid_move = true
+     valid_move? = true
    end
    if position_taken? == false
-     valid_move = true
+     valid_move? = true
   end
-  return valid_move
+  return valid_move?
 end
