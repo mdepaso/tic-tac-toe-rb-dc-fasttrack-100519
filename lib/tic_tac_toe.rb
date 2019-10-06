@@ -26,14 +26,14 @@ def move(board,index,char)
 end
 
 
-# # This checks if a space is taken. By checking is the space has and X or and O in it.
-# def position_taken?(board, position)
-#   if board[position] == "X" || board[position] == "O"
-#     return true
-#   else
-#     return false
-#   end
-# end
+# This checks if a space is taken. By checking is the space has and X or and O in it.
+def position_taken?(board, position)
+  if board[position] == "X" || board[position] == "O"
+    return true
+  else
+    return false
+  end
+end
 
 # def valid_move(board, index)
 #   if position_taken?
