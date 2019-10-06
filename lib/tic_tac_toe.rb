@@ -13,31 +13,31 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-# board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+# # board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
-display_board(board)
+# display_board(board)
 
-def input_to_index(user_input)
-  user_input = user_input.to_i-1
-end
+# def input_to_index(user_input)
+#   user_input = user_input.to_i-1
+# end
 
-def move(board,index,char)
-  board[index] = char
-end
+# def move(board,index,char)
+#   board[index] = char
+# end
 
 
-# This checks if a space is taken. By checking is the space has and X or and O in it.
-def position_taken?(board, position)
-  if board[position] == "X" || board[position] == "O"
-    return true
-  else
-    return false
-  end
-end
+# # This checks if a space is taken. By checking is the space has and X or and O in it.
+# def position_taken?(board, position)
+#   if board[position] == "X" || board[position] == "O"
+#     return true
+#   else
+#     return false
+#   end
+# end
 
-def valid_move(board, index)
-  if position_taken?
+# def valid_move(board, index)
+#   if position_taken?
   
-end
+# end
 
 
