@@ -37,10 +37,10 @@ end
 
 def valid_move?(board, index)
    if index <= 9
-     valid_move? = true
+     true
    end
    if position_taken? == false
-     valid_move? = true
+     true
   end
   return valid_move?
 end
