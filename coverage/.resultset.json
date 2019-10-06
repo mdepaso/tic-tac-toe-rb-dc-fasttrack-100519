@@ -2,54 +2,9 @@
   "RSpec": {
     "coverage": {
       "/home/affable-fork-1724/tic-tac-toe-rb-dc-fasttrack-100519/lib/tic_tac_toe.rb": [
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        2,
-        2,
-        2,
-        2,
-        2,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        3,
-        null,
-        null,
-        1,
-        3,
-        null,
-        null,
-        null,
-        null,
-        1,
-        4,
-        2,
-        null,
-        2,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        null
+
       ]
     },
-    "timestamp": 1570402529
+    "timestamp": 1570402571
   }
 }
